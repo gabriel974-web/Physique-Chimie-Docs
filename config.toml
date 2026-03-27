@@ -17,6 +17,10 @@ username = "user"
 password = "password"
 postgres = false
 
+[postgres]
+domain = ""
+port = 5432
+
 [server.server]
 port = 3000
 wisp = true
