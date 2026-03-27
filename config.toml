@@ -1,22 +1,32 @@
 [panel]
-title = "Physique-Chimie - Documents de cours"
-description = "Espace de ressources pédagogiques pour la classe de 3ème."
+title = "Physique-Chimie - Documents"
+description = "Ressources pédagogiques"
+
+[marketplace]
+enabled = false
+psk = "password123"
+level = 1
+
+[seo]
+enabled = false
+domain = "https://physique-chimie-docs.vercel.app"
+
+[db]
+name = "database"
+username = "user"
+password = "password"
+postgres = false
 
 [server.server]
 port = 3000
 wisp = true
 logging = false
 
-[db]
-name = "nebula"
-postgres = false
+[masqr]
+enabled = false
+failed = "failed.html"
+whitelisted = []
+url = ""
 
 [proxy]
 url = "https://www.google.com"
-
-[masqr]
-enabled = false
-
-[seo]
-enabled = false
-domain = "https://physique-chimie-docs.vercel.app"
