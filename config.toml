@@ -1,6 +1,22 @@
 [panel]
-title = "Physique-Chimie - Ressources"
-description = "Documents de cours"
+title = "Physique-Chimie - Documents de cours"
+description = "Espace de ressources pédagogiques pour la classe de 3ème."
+
+[server.server]
+port = 3000
+wisp = true
+logging = false
+
+[db]
+name = "nebula"
+postgres = false
 
 [proxy]
-url = "https://google.com"
+url = "https://www.google.com"
+
+[masqr]
+enabled = false
+
+[seo]
+enabled = false
+domain = "https://physique-chimie-docs.vercel.app"
